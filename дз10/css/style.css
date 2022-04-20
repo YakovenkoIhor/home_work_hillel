@@ -1,0 +1,531 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end reset css*/
+
+
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: auto;
+    background: #263238;
+}
+
+.width-section{
+    width: 1700px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*header section*/
+
+.header-title-left{
+    margin: 50px 0px;
+}
+
+.header-link-centr{
+    margin: 50px 0px;
+}
+
+.link-header-botton-right{
+    margin: 50px 0px;
+}
+
+.header-title{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 36px;
+    float: left;
+}
+
+.header-link a{
+    float: left;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.link-header-botton a{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.link-header-botton ul{
+    overflow: auto;
+}
+
+.link-header-botton li{
+    float: left;
+}
+
+.link-header-botton{
+    float: right;
+}
+
+/*centr cection*/
+
+.centr-title{
+    align-items: center;
+    text-align: center;
+    width: 670px;
+    height: 300px;
+    margin: 10px 10px 10px 450px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 78px;
+}
+    
+.Invest{
+    color: #23B123;
+}
+
+.centr-text{
+    align-items: center;
+    text-align: center;
+    width: 570px;
+    height: 100px;
+    margin: 10px 10px 10px 500px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.centr-emeil{
+    margin: 30px 680px;
+}
+
+.email{
+    float: right;
+    height: 42px;
+    padding: 20px 24px 0 30px;
+    background: #23B123;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.email-input{
+    height: 55px;
+    width: 195px;
+    border-radius: 10px;    
+}
+
+/*partner section*/
+
+.partner{
+    float: left;
+    width: 1600px;
+    height: 100px;
+    padding: 10px 30px;
+}
+
+.partner-img{
+    padding: 10px 50px;
+}
+
+/*how works section*/
+
+.w33{
+    width: 33%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.how-work-title{
+    width: 530px;
+    height: 130px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 2px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+.farmvest{
+    color: #23B123;
+}
+
+.how-work-text{
+    width: 440px;
+    height: 130px;
+    left: 250px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.how-work-icon-wrap{
+    overflow: auto;
+}
+
+.how-work-title-menu{
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.how-work-text-menu{
+    width: 380px;
+    height: 100px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+/*investment section*/
+
+.investment-title{
+    width: 490px;
+    height: 230px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 2px;
+    line-height: 78px;
+    margin-bottom: 30px;
+}
+
+.pathway{
+    color: #23B123;
+}
+
+.investment-text{
+    width: 440px;
+    height: 130px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.link-investment-section{
+    overflow: auto;
+    width: 600px;
+    height: 42px;
+    padding: 24px 20px 24px 30px;
+    background: #FFFFFF0D;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.link-investment-section a{
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    text-decoration: none;
+}
+
+.ivesment-arrow-down{
+    Width: 24px;
+    Height: 24px;
+}
+
+/*why choose section*/
+
+.why-choose-title{
+    width: 490px;
+    height: 170px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 2px;
+    line-height: 78px;
+    margin-bottom: 30px;
+}
+.why-choose-text{
+    width: 440px;
+    height: 70px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.why-choose-menu{
+    overflow: auto;
+}
+
+.why-choose-menu-title{
+    width: 380px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Spartan";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+    margin: 0 0 30px 100px;
+}
+
+.why-choose-lable a{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.why-choose-lable{
+    overflow: auto;
+    width: 100px;
+    height: 42px;
+    padding: 20px 24px 0 30px;
+    background: #23B123;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+/*reviews section*/
+
+.reviews section{
+    padding: 10px 10px 10px 10px;
+}
+
+.reviews-title{
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 30px 0px;
+}
+
+.customers{
+    color: #23B123;
+}
+
+.reviews-title-text{ 
+    width: 430px;
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 600px;
+    margin-bottom: 50px;
+}
+
+.reviews-article{
+    background: #FFFFFF0D;
+    width: 720px;
+    height: 375px;
+    margin: 0px 40px 30px 50px;
+}
+
+.reviews-img{
+    padding-right: 50px;
+}
+
+.reviews-text{
+    width: 570px;
+    height: 80px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 60px 20px 20px;
+    margin:20px 50px 20px 20px; 
+}
+
+.reviews-text-name{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 200px;
+}
+
+.rewiews-lable a{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rewiews-lable{
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 42px;
+    padding: 20px 24px 0 30px;
+    background: #23B123;
+    border-radius: 10px;
+    margin: 0px 0px 40px 800px;
+}
+
+.reviews-lable{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*download section*/
+
+.download-section{
+    background: #FFFFFF0D;
+    width: 1600px;
+    height: 250px;
+    margin: 0px 40px 30px 50px;
+    border-radius: 10px;
+}
+
+.download-title{
+    width: 600px;
+    height: 120px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 450px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.farmvest-app{
+    color: #23B123;
+}
+
+.download-icon-app{
+ 
+    width: 170px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 540px;
+}
+
+.download-icon-google{
+    width: 170px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 540px 10px 10px;
+}
+
+/*footer section*/
+
+.footer-section{
+    background: #FFFFFF0D;
+    width: 1920px;
+    height: 250px;   
+}
+
+.footer-left{
+width: 285px;
+height: 200px;
+padding: 10px;
+margin: 10px;
+}
+
+.footer-centr{
+    width: 330px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px 10px 10px 340px;
+}
+
+.footer-right{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer-right-size{
+    margin: 0 50px;
+}
+
+.footer-title{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.footer-text{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer-contakt{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-number{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+}
